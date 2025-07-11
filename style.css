@@ -101,9 +101,12 @@ h2{
     color:#252432;
     font-weight: bold;  
 }
+.color{
+  color:#fff;
+}
 p{
     font-size: 14px;
-    color:black; 
+    color:blue; 
 }
 .hero-2{
     margin-left: 10%;
