@@ -40,7 +40,7 @@ span{
   cursor: pointer;
   font-weight: 500;
   transition: background-color 0.3s ease;
-  margin-left: 1%;
+  margin-left:3px;
 }
 
 .btn:hover {
