@@ -40,7 +40,7 @@ span{
   cursor: pointer;
   font-weight: 500;
   transition: background-color 0.3s ease;
-  margin-left: 48px;
+  margin-left: 1%;
 }
 
 .btn:hover {
@@ -72,7 +72,20 @@ span{
 #banner-section{
   margin-top: 10%;
 }
-
+.btn-1{
+   padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #3b82f6;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-left: 20%;
+}
+.btn-1:hover {
+  background-color: tomato; 
+}
 #banner-section h2{
   text-align: center;
   justify-content: center;
@@ -118,11 +131,11 @@ p{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-/* h2{
+h2{
     text-align: center;
     justify-content: center;
     margin-top:40px;
-} */
+}
  .hero-3 h2{
     text-align: center;
     justify-content: center;
@@ -368,7 +381,7 @@ p{
   color: gray;
 }
 
-h4{
+.menu{
   text-align: center;
   align-items: center;
   color: black;
@@ -377,4 +390,40 @@ h4{
   gap: 20px;
   width: 45px;
   height: 24px;
+
+}
+span{
+   color:gold;
+}
+.footer-section{
+  padding: 80px 20px 30px;
+  text-align: center;
+  background-color: tomato;
+  box-shadow: 4px 4px 4px green;
+
+}
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0044cc;
+  margin-bottom: 15px;
+}
+.descrption{
+  font-size: 20px;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+nav{
+  margin-top: 10px;
+}
+nav a{
+  margin: 0 20px;
+  text-decoration: none;
+  color:#333;
+  font-weight: 800;
+}
+nav a:hover{
+  color:green;
 }
